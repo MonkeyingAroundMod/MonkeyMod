@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "monkeying_around:blocks/banana_leaves",
+    "particle": "monkeying_around:blocks/banana_leaves"
+  }
+}

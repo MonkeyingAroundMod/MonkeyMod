@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "monkeying_around:rainforest_biome",
+  "features": "monkeying_around:rainforest_tree_1",
+  "step": "surface_structures"
+}

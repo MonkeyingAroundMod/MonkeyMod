@@ -1,0 +1,711 @@
+{
+  "mod_elements": [
+    {
+      "name": "Rainforestlog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforestlog",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/rainforestlog.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestlogBlock.java",
+          "src/main/resources/assets/monkeying_around/models/item/rainforestlog.json",
+          "src/main/resources/assets/monkeying_around/blockstates/rainforestlog.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Rainforestplanks",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforestplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/rainforestplanks.json",
+          "src/main/resources/assets/monkeying_around/models/item/rainforestplanks.json",
+          "src/main/resources/assets/monkeying_around/blockstates/rainforestplanks.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestplanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainforestLogToPlank",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_log_to_plank",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monkeying_around/recipes/rainforest_log_to_plank.json"
+        ]
+      },
+      "path": "~/Crafting"
+    },
+    {
+      "name": "RainforestLeaves",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/item/rainforest_leaves.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestLeavesBlock.java",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_leaves.json",
+          "src/main/resources/assets/monkeying_around/blockstates/rainforest_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainforestTree1",
+      "type": "structure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_tree_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monkeying_around/forge/biome_modifier/rainforest_tree_1_biome_modifier.json",
+          "src/main/java/net/mcreator/monkeyingaround/world/features/RainforestTree1Feature.java"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "RainforestTree2",
+      "type": "structure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_tree_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/world/features/RainforestTree2Feature.java",
+          "src/main/resources/data/monkeying_around/forge/biome_modifier/rainforest_tree_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "RainforestTree3",
+      "type": "structure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_tree_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/world/features/RainforestTree3Feature.java",
+          "src/main/resources/data/monkeying_around/forge/biome_modifier/rainforest_tree_3_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "RainforestTree4",
+      "type": "structure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_tree_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/world/features/RainforestTree4Feature.java",
+          "src/main/resources/data/monkeying_around/forge/biome_modifier/rainforest_tree_4_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "RainforestTree5",
+      "type": "structure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_tree_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monkeying_around/forge/biome_modifier/rainforest_tree_5_biome_modifier.json",
+          "src/main/java/net/mcreator/monkeyingaround/world/features/RainforestTree5Feature.java"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "RainforestBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/world/biome/RainforestBiomeBiome.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Banana",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/item/banana.json",
+          "src/main/java/net/mcreator/monkeyingaround/item/BananaItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MonkeyKey",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/item/monkey_key.json",
+          "src/main/java/net/mcreator/monkeyingaround/item/MonkeyKeyItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BananaStem",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_stem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/block/BananaStemBlock.java",
+          "src/main/java/net/mcreator/monkeyingaround/block/entity/BananaStemBlockEntity.java",
+          "src/main/resources/assets/monkeying_around/models/item/banana_stem.json",
+          "src/main/resources/assets/monkeying_around/blockstates/banana_stem.json",
+          "src/main/resources/assets/monkeying_around/models/block/banana_stem.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BananaStem1",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_stem_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/item/banana_stem_1.json",
+          "src/main/resources/assets/monkeying_around/blockstates/banana_stem_1.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/BananaStem1Block.java",
+          "src/main/resources/assets/monkeying_around/models/block/banana_stem_1.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/entity/BananaStem1BlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BananaStem2",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_stem_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/block/BananaStem2Block.java",
+          "src/main/java/net/mcreator/monkeyingaround/block/entity/BananaStem2BlockEntity.java",
+          "src/main/resources/assets/monkeying_around/blockstates/banana_stem_2.json",
+          "src/main/resources/assets/monkeying_around/models/block/banana_stem_2.json",
+          "src/main/resources/assets/monkeying_around/models/item/banana_stem_2.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BananaStemUpdateTick",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_stem_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BananaStemStage2Loot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_stem_stage_2_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monkeying_around/loot_tables/blocks/banana_stem_2.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BananaStemOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_stem_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/procedures/BananaStemOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BananaStemBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_stem_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/procedures/BananaStemBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedCrackedStoneBricks",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_cracked_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_cracked_stone_bricks.json",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_cracked_stone_bricks.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedCrackedStoneBricksBlock.java",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_cracked_stone_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedMossyStoneBricks",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_mossy_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedMossyStoneBricksBlock.java",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_mossy_stone_bricks.json",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_mossy_stone_bricks.json",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_mossy_stone_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks.json",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricksBlock.java",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Gorilla",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorilla",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/client/renderer/GorillaRenderer.java",
+          "src/main/resources/assets/monkeying_around/models/item/gorilla_spawn_egg.json",
+          "src/main/java/net/mcreator/monkeyingaround/entity/GorillaEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Monkey",
+      "type": "livingentity",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/monkeying_around/forge/biome_modifier/monkey_biome_modifier.json",
+          "src/main/java/net/mcreator/monkeyingaround/client/renderer/MonkeyRenderer.java",
+          "src/main/java/net/mcreator/monkeyingaround/entity/MonkeyEntity.java",
+          "src/main/resources/assets/monkeying_around/models/item/monkey_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "ErodedStoneBricks0",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_0.json",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_0.json",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_0.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks0Block.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks1",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_1.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks1Block.java",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_1.json",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_1.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks2",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_2.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks2Block.java",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_2.json",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_2.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks3",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks3Block.java",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_3.json",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_3.json",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_3.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks4",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks4Block.java",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_4.json",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_4.json",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_4.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks5",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_5.json",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_5.json",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_5.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks5Block.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks6",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_6.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks6Block.java",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_6.json",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_6.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks7",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks7Block.java",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_7.json",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_7.json",
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_7.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ErodedStoneBricks8",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eroded_stone_bricks_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/eroded_stone_bricks_8.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/ErodedStoneBricks8Block.java",
+          "src/main/resources/assets/monkeying_around/models/item/eroded_stone_bricks_8.json",
+          "src/main/resources/assets/monkeying_around/blockstates/eroded_stone_bricks_8.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IsDistanceAway",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_distance_away",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/procedures/IsDistanceAwayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BabyMonkey",
+      "type": "livingentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_monkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/client/renderer/BabyMonkeyRenderer.java",
+          "src/main/resources/data/monkeying_around/forge/biome_modifier/baby_monkey_biome_modifier.json",
+          "src/main/java/net/mcreator/monkeyingaround/entity/BabyMonkeyEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Age",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.monkeying_around.baby_monkey": "Monkey",
+      "item.monkeying_around.monkey_spawn_egg": "Monkey Spawn Egg",
+      "block.monkeying_around.eroded_cracked_stone_bricks": "Cracked Eroded Stone Bricks",
+      "block.monkeying_around.rainforestlog": "Rainforest Log",
+      "entity.monkeying_around.gorilla": "Ancient Primate",
+      "block.monkeying_around.rainforestplanks": "Rainforest Planks",
+      "biome.monkeying_around.rainforest_biome": "Rainforest Biome",
+      "block.monkeying_around.rainforest_leaves": "Rainforest Leaves",
+      "item.monkeying_around.monkey_key": "Monkey Key",
+      "block.monkeying_around.banana_stem_2": "Banana Stem",
+      "entity.monkeying_around.monkey": "Monkey",
+      "block.monkeying_around.banana_stem_1": "Banana Stem",
+      "item.monkeying_around.banana": "Banana",
+      "block.monkeying_around.eroded_mossy_stone_bricks": "Mossy Eroded Stone Bricks",
+      "block.monkeying_around.eroded_stone_bricks_5": "Eroded Stone Bricks 5",
+      "block.monkeying_around.eroded_stone_bricks_6": "Eroded Stone Bricks 6",
+      "block.monkeying_around.eroded_stone_bricks_7": "Eroded Stone Bricks 7",
+      "block.monkeying_around.eroded_stone_bricks_8": "Eroded Stone Bricks 8",
+      "item.monkeying_around.gorilla_spawn_egg": "Ancient Primate Spawn Egg",
+      "block.monkeying_around.eroded_stone_bricks_0": "Eroded Stone Bricks 0",
+      "block.monkeying_around.eroded_stone_bricks_1": "Eroded Stone Bricks 1",
+      "block.monkeying_around.eroded_stone_bricks_2": "Eroded Stone Bricks 2",
+      "block.monkeying_around.eroded_stone_bricks_3": "Eroded Stone Bricks 3",
+      "block.monkeying_around.eroded_stone_bricks_4": "Eroded Stone Bricks 4",
+      "block.monkeying_around.eroded_stone_bricks": "Eroded Stone Bricks",
+      "block.monkeying_around.banana_stem": "Banana Stem"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Crafting",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "monkeying_around",
+    "modName": "Monkeying around",
+    "version": "1.0.0",
+    "author": "Nicklas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.monkeyingaround",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300223515
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "monkeying_around:block/rainforestlog",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "monkeying_around:block/rainforestlog"
+    },
+    "axis=z": {
+      "model": "monkeying_around:block/rainforestlog",
+      "x": 90
+    }
+  }
+}

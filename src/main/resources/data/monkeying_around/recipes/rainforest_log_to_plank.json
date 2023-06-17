@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "monkeying_around:rainforestlog"
+    }
+  ],
+  "result": {
+    "item": "monkeying_around:rainforestplanks",
+    "count": 4
+  }
+}

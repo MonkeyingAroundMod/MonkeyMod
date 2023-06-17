@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monkeying_around:blocks/rainforest_planks",
+    "up": "monkeying_around:blocks/rainforest_planks",
+    "north": "monkeying_around:blocks/rainforest_planks",
+    "east": "monkeying_around:blocks/rainforest_planks",
+    "south": "monkeying_around:blocks/rainforest_planks",
+    "west": "monkeying_around:blocks/rainforest_planks",
+    "particle": "monkeying_around:blocks/rainforest_planks"
+  },
+  "render_type": "solid"
+}

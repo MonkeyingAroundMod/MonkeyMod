@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "monkeying_around:rainforest_biome",
+    "jungle"
+  ],
+  "spawners": {
+    "type": "monkeying_around:monkey",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

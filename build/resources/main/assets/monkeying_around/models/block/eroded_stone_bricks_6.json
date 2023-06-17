@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monkeying_around:blocks/eroded_stone_bricks_6",
+    "up": "monkeying_around:blocks/eroded_stone_bricks_6",
+    "north": "monkeying_around:blocks/eroded_stone_bricks_6",
+    "east": "monkeying_around:blocks/eroded_stone_bricks_6",
+    "south": "monkeying_around:blocks/eroded_stone_bricks_6",
+    "west": "monkeying_around:blocks/eroded_stone_bricks_6",
+    "particle": "monkeying_around:blocks/eroded_stone_bricks_6"
+  },
+  "render_type": "solid"
+}

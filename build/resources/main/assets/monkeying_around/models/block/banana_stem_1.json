@@ -1,0 +1,10 @@
+{
+  "parent": "monkeying_around:custom/banana_bundle2",
+  "textures": {
+    "all": "monkeying_around:blocks/texture_stem",
+    "particle": "monkeying_around:blocks/texture_stem",
+    "0": "monkeying_around:blocks/texture_stem",
+    "2": "monkeying_around:blocks/texture2"
+  },
+  "render_type": "solid"
+}

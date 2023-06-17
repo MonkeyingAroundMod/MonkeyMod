@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "monkeying_around:block/banana_stem_1"
+    },
+    "facing=east": {
+      "model": "monkeying_around:block/banana_stem_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "monkeying_around:block/banana_stem_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "monkeying_around:block/banana_stem_1",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "monkeying_around:block/banana_stem_1",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "monkeying_around:block/banana_stem_1",
+      "x": 90
+    }
+  }
+}

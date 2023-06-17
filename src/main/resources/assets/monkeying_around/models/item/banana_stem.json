@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "monkeying_around:items/banana"
+  },
+  "render_type": "translucent"
+}
