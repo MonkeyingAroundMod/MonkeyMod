@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "monkeying_around:blocks/rainforest_planks",
+    "top": "monkeying_around:blocks/rainforest_planks",
+    "side": "monkeying_around:blocks/rainforest_planks"
+  },
+  "render_type": "solid"
+}

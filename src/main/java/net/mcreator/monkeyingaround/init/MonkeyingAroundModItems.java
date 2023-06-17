@@ -42,6 +42,12 @@ public class MonkeyingAroundModItems {
 	public static final RegistryObject<Item> ERODED_STONE_BRICKS_6 = block(MonkeyingAroundModBlocks.ERODED_STONE_BRICKS_6, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ERODED_STONE_BRICKS_7 = block(MonkeyingAroundModBlocks.ERODED_STONE_BRICKS_7, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ERODED_STONE_BRICKS_8 = block(MonkeyingAroundModBlocks.ERODED_STONE_BRICKS_8, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAINFOREST_STAIRS = block(MonkeyingAroundModBlocks.RAINFOREST_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAINFOREST_SLAB = block(MonkeyingAroundModBlocks.RAINFOREST_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAINFOREST_FENCE = block(MonkeyingAroundModBlocks.RAINFOREST_FENCE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAINFOREST_FENCE_GATE = block(MonkeyingAroundModBlocks.RAINFOREST_FENCE_GATE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAINFOREST_PRESSURE_PLATE = block(MonkeyingAroundModBlocks.RAINFOREST_PRESSURE_PLATE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAINFOREST_BUTTON = block(MonkeyingAroundModBlocks.RAINFOREST_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

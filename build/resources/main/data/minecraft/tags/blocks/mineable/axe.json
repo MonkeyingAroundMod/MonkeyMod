@@ -2,6 +2,12 @@
   "replace": false,
   "values": [
     "monkeying_around:rainforestplanks",
-    "monkeying_around:rainforestlog"
+    "monkeying_around:rainforestlog",
+    "monkeying_around:rainforest_stairs",
+    "monkeying_around:rainforest_slab",
+    "monkeying_around:rainforest_fence",
+    "monkeying_around:rainforest_fence_gate",
+    "monkeying_around:rainforest_pressure_plate",
+    "monkeying_around:rainforest_button"
   ]
 }

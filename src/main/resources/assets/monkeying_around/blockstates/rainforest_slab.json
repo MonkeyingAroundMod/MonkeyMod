@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "monkeying_around:block/rainforest_slab"
+    },
+    "type=top": {
+      "model": "monkeying_around:block/rainforest_slab_top"
+    },
+    "type=double": {
+      "model": "monkeying_around:block/rainforest_slab_full"
+    }
+  }
+}
