@@ -16,7 +16,13 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.monkeyingaround.block.RainforestplanksBlock;
 import net.mcreator.monkeyingaround.block.RainforestlogBlock;
+import net.mcreator.monkeyingaround.block.RainforestStairsBlock;
+import net.mcreator.monkeyingaround.block.RainforestSlabBlock;
+import net.mcreator.monkeyingaround.block.RainforestPressurePlateBlock;
 import net.mcreator.monkeyingaround.block.RainforestLeavesBlock;
+import net.mcreator.monkeyingaround.block.RainforestFenceGateBlock;
+import net.mcreator.monkeyingaround.block.RainforestFenceBlock;
+import net.mcreator.monkeyingaround.block.RainforestButtonBlock;
 import net.mcreator.monkeyingaround.block.ErodedStoneBricksBlock;
 import net.mcreator.monkeyingaround.block.ErodedStoneBricks8Block;
 import net.mcreator.monkeyingaround.block.ErodedStoneBricks7Block;
@@ -54,6 +60,12 @@ public class MonkeyingAroundModBlocks {
 	public static final RegistryObject<Block> ERODED_STONE_BRICKS_6 = REGISTRY.register("eroded_stone_bricks_6", () -> new ErodedStoneBricks6Block());
 	public static final RegistryObject<Block> ERODED_STONE_BRICKS_7 = REGISTRY.register("eroded_stone_bricks_7", () -> new ErodedStoneBricks7Block());
 	public static final RegistryObject<Block> ERODED_STONE_BRICKS_8 = REGISTRY.register("eroded_stone_bricks_8", () -> new ErodedStoneBricks8Block());
+	public static final RegistryObject<Block> RAINFOREST_STAIRS = REGISTRY.register("rainforest_stairs", () -> new RainforestStairsBlock());
+	public static final RegistryObject<Block> RAINFOREST_SLAB = REGISTRY.register("rainforest_slab", () -> new RainforestSlabBlock());
+	public static final RegistryObject<Block> RAINFOREST_FENCE = REGISTRY.register("rainforest_fence", () -> new RainforestFenceBlock());
+	public static final RegistryObject<Block> RAINFOREST_FENCE_GATE = REGISTRY.register("rainforest_fence_gate", () -> new RainforestFenceGateBlock());
+	public static final RegistryObject<Block> RAINFOREST_PRESSURE_PLATE = REGISTRY.register("rainforest_pressure_plate", () -> new RainforestPressurePlateBlock());
+	public static final RegistryObject<Block> RAINFOREST_BUTTON = REGISTRY.register("rainforest_button", () -> new RainforestButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -616,6 +616,120 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "RainforestStairs",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_stairs.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestStairsBlock.java",
+          "src/main/resources/assets/monkeying_around/models/item/rainforest_stairs.json",
+          "src/main/resources/assets/monkeying_around/blockstates/rainforest_stairs.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_stairs_outer.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainforestSlab",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/blockstates/rainforest_slab.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_slab_top.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_slab_full.json",
+          "src/main/resources/assets/monkeying_around/models/item/rainforest_slab.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_slab.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainforestFence",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_fence.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_fence_post.json",
+          "src/main/resources/assets/monkeying_around/models/item/rainforest_fence.json",
+          "src/main/resources/assets/monkeying_around/blockstates/rainforest_fence.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_fence_inventory.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestFenceBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainforestFenceGate",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_fence_gate_open.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_fence_gate_wall.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestFenceGateBlock.java",
+          "src/main/resources/assets/monkeying_around/blockstates/rainforest_fence_gate.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_fence_gate.json",
+          "src/main/resources/assets/monkeying_around/models/item/rainforest_fence_gate.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainforestPressurePlate",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestPressurePlateBlock.java",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_pressure_plate.json",
+          "src/main/resources/assets/monkeying_around/models/item/rainforest_pressure_plate.json",
+          "src/main/resources/assets/monkeying_around/blockstates/rainforest_pressure_plate.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RainforestButton",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/monkeying_around/blockstates/rainforest_button.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_button_pressed.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_button_inventory.json",
+          "src/main/resources/assets/monkeying_around/models/item/rainforest_button.json",
+          "src/main/resources/assets/monkeying_around/models/block/rainforest_button.json",
+          "src/main/java/net/mcreator/monkeyingaround/block/RainforestButtonBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -631,20 +745,26 @@
     "en_us": {
       "entity.monkeying_around.baby_monkey": "Monkey",
       "item.monkeying_around.monkey_spawn_egg": "Monkey Spawn Egg",
+      "block.monkeying_around.rainforest_fence_gate": "Rainforest Fence Gate",
+      "block.monkeying_around.rainforest_slab": "Rainforest Slab",
       "block.monkeying_around.eroded_cracked_stone_bricks": "Cracked Eroded Stone Bricks",
+      "block.monkeying_around.rainforest_stairs": "Rainforest Stairs",
       "block.monkeying_around.rainforestlog": "Rainforest Log",
       "entity.monkeying_around.gorilla": "Ancient Primate",
       "block.monkeying_around.rainforestplanks": "Rainforest Planks",
       "biome.monkeying_around.rainforest_biome": "Rainforest Biome",
+      "block.monkeying_around.rainforest_fence": "Rainforest Fence",
       "block.monkeying_around.rainforest_leaves": "Rainforest Leaves",
       "item.monkeying_around.monkey_key": "Monkey Key",
       "block.monkeying_around.banana_stem_2": "Banana Stem",
       "entity.monkeying_around.monkey": "Monkey",
       "block.monkeying_around.banana_stem_1": "Banana Stem",
+      "block.monkeying_around.rainforest_pressure_plate": "Rainforest Pressure Plate",
       "item.monkeying_around.banana": "Banana",
       "block.monkeying_around.eroded_mossy_stone_bricks": "Mossy Eroded Stone Bricks",
       "block.monkeying_around.eroded_stone_bricks_5": "Eroded Stone Bricks 5",
       "block.monkeying_around.eroded_stone_bricks_6": "Eroded Stone Bricks 6",
+      "block.monkeying_around.rainforest_button": "Rainforest Button",
       "block.monkeying_around.eroded_stone_bricks_7": "Eroded Stone Bricks 7",
       "block.monkeying_around.eroded_stone_bricks_8": "Eroded Stone Bricks 8",
       "item.monkeying_around.gorilla_spawn_egg": "Ancient Primate Spawn Egg",
